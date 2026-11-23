@@ -1,0 +1,141 @@
+[
+  {
+    "id": "fb-001",
+    "cliente": {
+      "nome": "Lucas Martins",
+      "contato": "lucas@example.com",
+      "pedido_id": "PED-8421"
+    },
+    "comentario": "O lanche Burger Artesanal Smash estava simplesmente divino! A entrega para o centro de Ourinhos chegou super rápida e quentinha.",
+    "sentimento": "Positivo",
+    "tags": [
+      "Sabor",
+      "Entrega",
+      "Qualidade"
+    ],
+    "resumo": "Elogiou o sabor do burger artesanal e a rapidez da entrega.",
+    "status": "tratado",
+    "alerta_disparado": false,
+    "criado_em": "2026-11-23T14:10:00Z"
+  },
+  {
+    "id": "fb-002",
+    "cliente": {
+      "nome": "Beatriz Lima",
+      "contato": "beatriz@example.com",
+      "pedido_id": "PED-8429"
+    },
+    "comentario": "Meu pedido atrasou mais de 1 hora e meia, o hambúrguer chegou frio e o refrigerante veio errado. Péssima experiência, exijo estorno!",
+    "sentimento": "Crítico",
+    "tags": [
+      "Entrega",
+      "Temperatura",
+      "Item Errado"
+    ],
+    "resumo": "Reclamação de atraso excessivo, comida fria e item trocado.",
+    "status": "pendente",
+    "alerta_disparado": true,
+    "criado_em": "2026-11-23T14:45:00Z"
+  },
+  {
+    "id": "fb-003",
+    "cliente": {
+      "nome": "Carlos Eduardo",
+      "contato": "carlos@example.com",
+      "pedido_id": "PED-8435"
+    },
+    "comentario": "O atendimento pelo WhatsApp foi cordial, mas achei a batata frita um pouco murcha. O lanche estava na média.",
+    "sentimento": "Neutro",
+    "tags": [
+      "Atendimento",
+      "Batata",
+      "Sabor"
+    ],
+    "resumo": "Feedback neutro destacando bom atendimento e ressalva na batata.",
+    "status": "pendente",
+    "alerta_disparado": false,
+    "criado_em": "2026-11-23T15:05:00Z"
+  },
+  {
+    "id": "fb-test-999",
+    "cliente": {
+      "nome": "Cliente Teste",
+      "contato": "1499999999",
+      "pedido_id": "TEST-123"
+    },
+    "comentario": "O hambúrguer veio completamente frio, demorou 2 horas e o refri veio trocado. Quero estorno!",
+    "sentimento": "Crítico",
+    "tags": [
+      "Entrega",
+      "Sabor",
+      "Temperatura"
+    ],
+    "resumo": "Cliente relatou: O hambúrguer veio completamente frio, demorou 2 horas e o refri veio...",
+    "status": "tratado",
+    "criado_em": "2026-11-23T18:39:01.688653Z",
+    "atualizado_em": "2026-11-23T18:57:55.598052Z"
+  },
+  {
+    "id": "fb-test-999",
+    "cliente": {
+      "nome": "Cliente Teste",
+      "contato": "1499999999",
+      "pedido_id": "TEST-123"
+    },
+    "comentario": "O hambúrguer veio completamente frio, demorou 2 horas e o refri veio trocado. Quero estorno!",
+    "sentimento": "Crítico",
+    "tags": [
+      "Entrega",
+      "Sabor",
+      "Temperatura"
+    ],
+    "resumo": "Cliente relatou: O hambúrguer veio completamente frio, demorou 2 horas e o refri veio...",
+    "status": "pendente",
+    "criado_em": "2026-11-23T18:57:55.566810Z"
+  },
+  {
+    "cliente": {
+      "nome": "Fernanda Souza",
+      "contato": "(14) 99123-4567",
+      "pedido_id": "PED-OUR-901"
+    },
+    "comentario": "O atendimento foi maravilhoso e o smash duplo com cheddar estava sensacional!",
+    "nota": 5,
+    "sentimento": "Positivo",
+    "tags": [
+      "Atendimento",
+      "Sabor",
+      "Smash",
+      "Qualidade"
+    ],
+    "resumo": "Cliente elogiou o atendimento maravilhoso e o smash duplo sensacional.",
+    "status": "tratado",
+    "alerta_disparado": false,
+    "metodo_analise": "gemini_gemini-flash-lite-latest",
+    "criado_em": "2026-11-23T19:02:09.041779Z",
+    "id": "fb-0dde5135",
+    "atualizado_em": "2026-11-23T19:02:09.083623Z"
+  },
+  {
+    "cliente": {
+      "nome": "Fernanda Souza",
+      "contato": "(14) 99123-4567",
+      "pedido_id": "PED-OUR-901"
+    },
+    "comentario": "O atendimento foi maravilhoso e o smash duplo com cheddar estava sensacional!",
+    "nota": 5,
+    "sentimento": "Positivo",
+    "tags": [
+      "Atendimento",
+      "Sabor",
+      "Smash"
+    ],
+    "resumo": "Cliente elogiou o atendimento maravilhoso e o sabor sensacional do smash duplo.",
+    "status": "tratado",
+    "alerta_disparado": false,
+    "metodo_analise": "gemini_gemini-flash-lite-latest",
+    "criado_em": "2026-11-23T19:03:13.229840Z",
+    "id": "fb-b5ba233c",
+    "atualizado_em": "2026-11-23T19:03:13.254839Z"
+  }
+]

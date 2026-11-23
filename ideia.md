@@ -1,0 +1,1 @@
+Como um engenheiro de IA, escreva um prompt orquestrado para a seguinte ideia: 
